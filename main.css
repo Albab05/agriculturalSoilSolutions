@@ -9,7 +9,7 @@
 }
 .header .img
 {
-    background: url(assets/3411468.jpg);
+    background: url(assets/indian_farmer-edit-2.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -122,6 +122,12 @@
     outline: none;
     border: 1px solid #000;
     cursor: pointer;
+}
+.body .calculator button:hover
+{
+    color: #defdf6;
+    background: #000;
+    transition: 0.3s;
 }
 .body .output
 {
