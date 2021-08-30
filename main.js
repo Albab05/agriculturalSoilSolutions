@@ -120,7 +120,7 @@ function submit()
                 break;
                 case 'jute':
                 if(ph<6 && ph>=0 && land>0){ph_output.innerHTML = `Apply ${land*1200*(6-ph)} kg of lime`;}
-                else if(ph>7.5 && land>0){ph_output.innerHTML = `Apply ${land*1200*(ph-8)} kg of sulphur`;}
+                else if(ph>7.5 && land>0){ph_output.innerHTML = `Apply ${land*1200*(ph-7.5)} kg of sulphur`;}
                 else if(ph<=7.5 && ph>=6){ph_output.innerHTML = "Ideal pH";}
                 else{ph_output.innerHTML = "";}
                 if(sar>6){sar_output.innerHTML = `Apply ${land*1700*(sar-6)} kg of gypsum`;}
@@ -209,7 +209,7 @@ function submit()
                 else{f_output.innerHTML = "";}
                 break;
                 case 'corn':
-                if(ph<5.8 && ph>=0 && land>0){ph_output.innerHTML = `Apply ${land*1200*(6-ph)} kg of lime`;}
+                if(ph<5.8 && ph>=0 && land>0){ph_output.innerHTML = `Apply ${land*1200*(5.8-ph)} kg of lime`;}
                 else if(ph>7 && land>0){ph_output.innerHTML = `Apply ${land*1200*(ph-7)} kg of sulphur`;}
                 else if(ph<=7 && ph>=5.8){ph_output.innerHTML = "Ideal pH";}
                 else{ph_output.innerHTML = "";}
@@ -227,8 +227,8 @@ function submit()
                 else{f_output.innerHTML = "";}
                 break;
                 case 'soybean':
-                if(ph<5.2 && ph>=0 && land>0){ph_output.innerHTML = `Apply ${land*1200*(6-ph)} kg of lime`;}
-                else if(ph>6.5 && land>0){ph_output.innerHTML = `Apply ${land*1200*(ph-7)} kg of sulphur`;}
+                if(ph<5.2 && ph>=0 && land>0){ph_output.innerHTML = `Apply ${land*1200*(5.2-ph)} kg of lime`;}
+                else if(ph>6.5 && land>0){ph_output.innerHTML = `Apply ${land*1200*(ph-6.5)} kg of sulphur`;}
                 else if(ph<=6.5 && ph>=5.2){ph_output.innerHTML = "Ideal pH";}
                 else{ph_output.innerHTML = "";}
                 if(sar>6){sar_output.innerHTML = `Apply ${land*1700*(sar-6)} kg of gypsum`;}
@@ -246,7 +246,7 @@ function submit()
                 break;
                 case 'orange':
                 if(ph<6 && ph>=0 && land>0){ph_output.innerHTML = `Apply ${land*1200*(6-ph)} kg of lime`;}
-                else if(ph>7.6 && land>0){ph_output.innerHTML = `Apply ${land*1200*(ph-7)} kg of sulphur`;}
+                else if(ph>7.5 && land>0){ph_output.innerHTML = `Apply ${land*1200*(ph-7.5)} kg of sulphur`;}
                 else if(ph<=7.5 && ph>=6){ph_output.innerHTML = "Ideal pH";}
                 else{ph_output.innerHTML = "";}
                 if(sar>6){sar_output.innerHTML = `Apply ${land*1700*(sar-6)} kg of gypsum`;}
