@@ -223,7 +223,7 @@ function submit()
                 if(cec<10 && cec>=0){cec_output.innerHTML = `Use organic matter`;}
                 else if(cec>10){cec_output.innerHTML = "Ideal Cation Exchange Capacity";}
                 else{cec_output.innerHTML = "";}
-                if(land >0){f_output.innerHTML = `Use NPK fertilizer of ${land*135/2.5} kg N(Nitrogen), ${land*62/2.5} kg P(Phosphorus), ${land*50/2.5} kg K(Potassium) , ${land*37.5/2.5} kh of ZnSO4`;}
+                if(land >0){f_output.innerHTML = `Use NPK fertilizer of ${land*135/2.5} kg N(Nitrogen), ${land*62/2.5} kg P(Phosphorus), ${land*50/2.5} kg K(Potassium) , ${land*37.5/2.5} kg of ZnSO4`;}
                 else{f_output.innerHTML = "";}
                 break;
                 case 'soybean':
@@ -241,7 +241,7 @@ function submit()
                 if(cec<10 && cec>=0){cec_output.innerHTML = `Use organic matter`;}
                 else if(cec>10){cec_output.innerHTML = "Ideal Cation Exchange Capacity";}
                 else{cec_output.innerHTML = "";}
-                if(land >0){f_output.innerHTML = `Use NPKS fertilizer of ${land*20/2.5} kg N(Nitrogen), ${land*40/2.5} kg P(Phosphorus), ${land*20/2.5} kg K(Potassium), ${land*20/2.5} kh of S(Sulphur)`;}
+                if(land >0){f_output.innerHTML = `Use NPKS fertilizer of ${land*20/2.5} kg N(Nitrogen), ${land*40/2.5} kg P(Phosphorus), ${land*20/2.5} kg K(Potassium), ${land*20/2.5} kg of S(Sulphur)`;}
                 else{f_output.innerHTML = "";}
                 break;
                 case 'orange':
